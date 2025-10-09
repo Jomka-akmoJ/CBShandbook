@@ -16,6 +16,7 @@ Corebankingsystemhandbook
 11. Additional resources
 
 ---
+<img width="1300" height="715" alt="image" src="https://github.com/user-attachments/assets/beb30d72-68ac-4ae3-b484-0d76d2c3ee99" />
 
 ## 1) System overview & purpose
 
