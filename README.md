@@ -122,22 +122,18 @@ Self Service UI
 - Review roles/permissions; apply least privilege.
 
 ### SSH & remote management
-- SSH on port 22. Exercise default: Username: root / Password: changeme.
+- SSH on port 22. Exercise default: Username: root / Password: abcd.1234.
 
 ---
 
 ## 9) Quick start (common tasks)
 
 ### Back Office (Mifos WebApp)
-1. Open http://bankwebadm.amberbank.x.lt:4200 and sign in.  
+1. Open http://ib.amberbank.x.lt and sign in.  
 
 ### Self Service (Client)
-1. Open http://bankwebcli.amberbank.x.lt:3000 and sign in.  
+1. Open http://adm.amberbank.x.lt and sign in.  
 
-### Core API (Fineract)
-1. Use https://cbs.amberbank.x.lt:8443 with curl/Postman.  
-2. Call endpoints (e.g., GET /clients, GET /loans).  
-3. Confirm authentication, tenant headers and request format.
 
 ---
 
