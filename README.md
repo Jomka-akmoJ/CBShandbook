@@ -99,8 +99,8 @@ Self Service UI
 | Component | Ports |
 |---|---|
 | Fineract | 8443 (HTTPS), 22 (SSH) |
-| Mifos WebApp | 4200 (HTTP), 22 (SSH) |
-| Self Service | 3000 (HTTP), 22 (SSH) |
+| Mifos WebApp | 8080 (HTTP), 22 (SSH) |
+| Self Service | 80 (HTTP), 22 (SSH) |
 
 ---
 
