@@ -82,15 +82,15 @@ Note: AmberBank subnet access required. Verify routing, DNS and firewall rules.
 ## 5) Default credentials.
 
 Fineract  
-- Admin: root / abcd.1234
+- Admin: root:abcd.1234
 
 Mifos Web UI  
-- Admin: Mifos / password  
-- Employees (amberbank AD/DC): {name.lastname} / Pa5w0rd123456*
+- Admin: Mifos:password  
+- Employees (amberbank AD/DC): {name.lastname}:Pa5w0rd123456*
 
 Self Service UI  
-- Admin: Mifos / password  
-- Employees (amberbank AD/DC): {name.lastname} / Pa5w0rd123456*
+- Admin: selfService:password  
+- Employees (amberbank AD/DC): {name.lastname}:Pa5w0rd123456*
 
 (Important: rotate these credentials.)
 
@@ -100,9 +100,10 @@ Self Service UI
 
 | Component | Ports |
 |---|---|
-| Fineract | 8443 (HTTPS), 22 (SSH) |
-| Mifos WebApp | 8080 (HTTP), 22 (SSH) |
-| Self Service | 80 (HTTP), 22 (SSH) |
+| Fineract | 8443 (HTTPS), 22 (SSH)  |
+| Mifos WebApp | 8080 (HTTP)        |
+| Self Service | 80 (HTTP)          |
+| Database     | 3306
 
 ---
 
@@ -124,7 +125,7 @@ Self Service UI
 - Review roles/permissions; apply least privilege.
 
 ### SSH & remote management
-- SSH on port 22. Exercise default: Username: root / Password: abcd.1234.
+- SSH on port 22. Exercise default creds: root:abcd.1234
 
 ---
 
