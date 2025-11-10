@@ -1,3 +1,5 @@
+#### Troubleshooting IF YOU FAIL TO LOG IN!!!!
+- Cant't login through self-service/web-app: access https://100.10x.3.33:8443 https://ib.bank.x.lab:8443 or https://adm.bank.x.lab:8443 and accept the risk.
 # CBShandbook
 Corebankingsystemhandbook
 # AmberBank Fineract / Mifos Handbook
@@ -138,7 +140,7 @@ Self Service UI
 ---
 
 ## 10) Troubleshooting & tips
-- Cant't login through self-service/web-app: access https://100.10x.3.33:8443 and accept the risk.
+- Cant't login through self-service/web-app: access https://100.10x.3.33:8443 https://ib.bank.x.lab:8443 or https://adm.bank.x.lab:8443 and accept the risk.
 - UI won’t load / API 401: verify credentials, roles, and UI environment API origin.  
 - Connectivity: confirm ports 8443/80/8080 reachable from AmberBank subnet; check DNS, firewalls, proxies.
 
