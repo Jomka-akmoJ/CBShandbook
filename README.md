@@ -82,7 +82,7 @@ Note: AmberBank subnet access required. Verify routing, DNS and firewall rules.
 ## 5) Default credentials.
 
 Fineract  
-- Admin: root / changeme
+- Admin: root / abcd.1234
 
 Mifos Web UI  
 - Admin: Mifos / password  
