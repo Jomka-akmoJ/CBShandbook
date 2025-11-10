@@ -1,4 +1,4 @@
-#### Troubleshooting IF YOU FAIL TO LOG IN!!!!
+# Troubleshooting IF YOU FAIL TO LOG IN!!!!
 - Cant't login through self-service/web-app: access https://100.10x.3.33:8443 https://ib.bank.x.lab:8443 or https://adm.bank.x.lab:8443 and accept the risk.
 # CBShandbook
 Corebankingsystemhandbook
