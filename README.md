@@ -138,11 +138,9 @@ Self Service UI
 ---
 
 ## 10) Troubleshooting & tips
-- CORS errors: ensure API/reverse proxy returns Access‑Control‑Allow‑Origin for UI origins and UI uses correct API base URL (HTTPS for 8443).  
-- HTTP 400 with HTML body: check path, method, headers (Content-Type: application/json), and JSON body.  
-- TLS / EPROTO issues: match HTTPS, validate cert chain; avoid forcing HTTP/2 with self‑signed certs.  
+- Cant't login through self-service/web-app: access https://100.10x.3.33:8443 and accept the risk.
 - UI won’t load / API 401: verify credentials, roles, and UI environment API origin.  
-- Connectivity: confirm ports 8443/4200/3000 reachable from AmberBank subnet; check DNS, firewalls, proxies.
+- Connectivity: confirm ports 8443/80/8080 reachable from AmberBank subnet; check DNS, firewalls, proxies.
 
 ---
 
