@@ -62,9 +62,9 @@ Corebankingsystemhandbook
 
 | Component | Primary URL | IP | Notes |
 |---|---|---:|---|
-| Fineract Core (API + DB) | https://cbs.amberbank.x.lt| 100.10x.3.33:8443  | Ensure HTTPS; reachable from AmberBank subnet |
-| Mifos WebApp (Back Office) | http://bankwebadm.amberbank.x.lt | 100.10x.3.76:4200 | Staff console; check static assets & API base URL |
-| Self Service UI (Online) | http://bankwebcli.amberbank.x.lt | 100.10x.3.77:3000 | Client portal; verify CORS/API connectivity |
+| Fineract Core (API + DB) | 100.10x.3.33:8443  | Ensure HTTPS; reachable from AmberBank subnet |
+| Mifos WebApp (Back Office) | http://adm.amberbank.x.lab | 100.10x.3.76:80 | Staff console; check static assets & API base URL |
+| Self Service UI (Online) | http://ib.amberbank.x.lab | 100.10x.3.77:8080 | Client portal; verify CORS/API connectivity |
 
 Note: AmberBank subnet access required. Verify routing, DNS and firewall rules.
 
