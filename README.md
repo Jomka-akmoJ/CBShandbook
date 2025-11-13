@@ -108,7 +108,7 @@ Self Service UI
 ---
 
 ## 7) Key requirements
-- Accessibility: reachable from AmberBank subnet.  
+- Accessibility: reachable from internet.  
 - Web UI readiness: static assets, environment config, API base URLs must load.  
 - Admin access: admin interfaces available to authorized admins.  
 - Content integrity: prevent unauthorized tampering with products, GL, or client data.
