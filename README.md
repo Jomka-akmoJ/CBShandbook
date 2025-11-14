@@ -89,6 +89,9 @@ Mifos Web UI
 Self Service UI  
 - Clients (client list can be found in the web-ui):Pa5w0rd123456* (see vault.ambermist.lt - ib.bank.x.lab)
 
+Database
+mariadb:mysql(care if rotating these credentials)
+
 (Important: rotate these credentials.)
 
 ---
@@ -133,7 +136,6 @@ Self Service UI
 
 ### Self Service (Client)
 1. Open http://adm.amberbank.x.lt and sign in.  
-
 
 ---
 
