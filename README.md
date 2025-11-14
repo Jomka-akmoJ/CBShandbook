@@ -63,8 +63,8 @@ Corebankingsystemhandbook
 | Component | Primary URL | IP | Notes |
 |---|---|---:|---|
 | Fineract Core (API + DB) | | 100.10x.3.33:8443  |  reachable from internet |
-| Mifos WebApp (Back Office) | http://adm.amberbank.x.lab | 100.10x.3.33:80 | Staff console; check static assets & API base URL |
-| Self Service UI (Online) | http://ib.amberbank.x.lab | 100.10x.3.33:8080 | Client portal; verify CORS/API connectivity |
+| Mifos WebApp (Back Office) | http://adm.bank.x.lab | 100.10x.3.33:80 | Staff console; check static assets & API base URL |
+| Self Service UI (Online) | http://ib.bank.x.lab | 100.10x.3.33:8080 | Client portal; verify CORS/API connectivity |
 
 Note: internet access required. Verify routing, DNS and firewall rules.
 
@@ -132,10 +132,10 @@ mariadb:mysql(care if rotating these credentials)
 ## 9) Quick start (common tasks)
 
 ### Back Office (Mifos WebApp)
-1. Open http://ib.amberbank.x.lt and sign in.  
+1. Open http://ib.bank.x.lab and sign in.  
 
 ### Self Service (Client)
-1. Open http://adm.amberbank.x.lt and sign in.  
+1. Open http://adm.bank.x.lab and sign in.  
 
 ---
 
