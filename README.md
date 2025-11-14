@@ -1,5 +1,3 @@
-# Troubleshooting IF YOU FAIL TO LOG IN!!!!
-## Cant't login through self-service/web-app: access https://100.10x.3.33:8443 https://ib.bank.x.lab:8443 or https://adm.bank.x.lab:8443 and ** accept the risk **.
 # CBShandbook
 Corebankingsystemhandbook
 # AmberBank Fineract / Mifos Handbook
@@ -64,11 +62,11 @@ Corebankingsystemhandbook
 
 | Component | Primary URL | IP | Notes |
 |---|---|---:|---|
-| Fineract Core (API + DB) | | 100.10x.3.33:8443  | Ensure HTTPS; reachable from AmberBank subnet |
+| Fineract Core (API + DB) | | 100.10x.3.33:8443  |  reachable from internet |
 | Mifos WebApp (Back Office) | http://adm.amberbank.x.lab | 100.10x.3.33:80 | Staff console; check static assets & API base URL |
 | Self Service UI (Online) | http://ib.amberbank.x.lab | 100.10x.3.33:8080 | Client portal; verify CORS/API connectivity |
 
-Note: AmberBank subnet access required. Verify routing, DNS and firewall rules.
+Note: internet access required. Verify routing, DNS and firewall rules.
 
 ---
 
@@ -85,12 +83,11 @@ Fineract
 - Admin: root:abcd.1234
 
 Mifos Web UI  
-- Admin: Mifos:password  
-- Employees (amberbank AD/DC): {name.lastname}:Pa5w0rd123456*
+- Admin: mifos:password  
+- Employees (bank AD/DC users with full name and last name): {name.lastname}:Pa5w0rd123456* (see vault.ambermist.lt - adm.bank.x.lab)
 
 Self Service UI  
-- Admin: selfService:password  
-- Employees (amberbank AD/DC): {name.lastname}:Pa5w0rd123456*
+- Clients (client list can be found in the web-ui):Pa5w0rd123456* (see vault.ambermist.lt - ib.bank.x.lab)
 
 (Important: rotate these credentials.)
 
@@ -125,7 +122,7 @@ Self Service UI
 - Review roles/permissions; apply least privilege.
 
 ### SSH & remote management
-- SSH on port 22. Exercise default creds: root:abcd.1234
+- SSH on port 22.
 
 ---
 
@@ -141,9 +138,9 @@ Self Service UI
 ---
 
 ## 10) Troubleshooting & tips
-- Cant't login through self-service/web-app: access https://100.10x.3.33:8443 https://ib.bank.x.lab:8443 or https://adm.bank.x.lab:8443 and accept the risk.
+- Cant't see user list: click any button on the client list page and show client list again (should populate)
 - UI won’t load / API 401: verify credentials, roles, and UI environment API origin.  
-- Connectivity: confirm ports 8443/80/8080 reachable from AmberBank subnet; check DNS, firewalls, proxies.
+- Connectivity: confirm ports 8443/80/8080 reachable from internet subnet; check DNS, firewalls, proxies.
 
 ---
 
