@@ -138,7 +138,7 @@ Self Service UI
 ---
 
 ## 10) Troubleshooting & tips
-- Cant't see user list: click any button on the client list page and show client list again (should populate)
+- Cant't see user list: REFRESH THE WEBSITE OR click any button on the client list page and show client list again (should populate)
 - UI won’t load / API 401: verify credentials, roles, and UI environment API origin.  
 - Connectivity: confirm ports 8443/80/8080 reachable from internet subnet; check DNS, firewalls, proxies.
 
