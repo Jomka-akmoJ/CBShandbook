@@ -80,7 +80,7 @@ Note: internet access required. Verify routing, DNS and firewall rules.
 ## 5) Default credentials.
 
 Fineract  
-- Admin: root:abcd.1234
+- Admin: root:changeme
 
 Mifos Web UI  
 - Admin: mifos:password  
